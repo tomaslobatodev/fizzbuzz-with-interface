@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+.inputdiv {
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+#input {
+    height: 20px;
+    width: 40px;
+    padding: 5px 10px ;
+}
+
+#button {
+    padding: 7px 10px ;
+}
+
+#output {
+    min-height: 100px;
+    max-height: 76vh;
+    width: 300px;
+    border: 1px solid black;
+    padding: 4px;
+    overflow-y: scroll;
+    border-radius: 4px;
+}
